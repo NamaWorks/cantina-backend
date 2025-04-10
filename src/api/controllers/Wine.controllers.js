@@ -53,7 +53,6 @@ const getWinesByFilters = async (req, res, next) => {
         }
     })
 
-
     console.log(query)
 
     const wines = await Wine.find(query)
